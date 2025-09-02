@@ -1,0 +1,39 @@
+/* --- Hero section --- */
+.hero {
+  display: grid;
+  grid-template-columns: 1.2fr;
+  gap: 1.25rem;
+  padding: 2.5rem 0 1rem;
+}
+.hero__title {
+  font-size: clamp(1.8rem, 2.8vw, 2.6rem);
+  margin: 0 0 .25rem 0;
+  line-height: 1.15;
+}
+.hero__subtitle {
+  font-size: clamp(1rem, 1.6vw, 1.1rem);
+  opacity: .85;
+  margin: 0 0 1rem 0;
+}
+
+/* Buttons */
+.btn { 
+  display: inline-block; 
+  padding: .6rem 1rem; 
+  border-radius: .6rem; 
+  border: 1px solid rgba(0,0,0,.1);
+  text-decoration: none;
+  margin-right: .5rem;
+}
+.btn:hover { filter: brightness(1.05); }
+.btn.primary { 
+  background: var(--md-primary-fg-color);
+  color: white !important;
+  border: 0;
+}
+
+/* Cards grid spacing fix */
+.grid.cards > ul { margin-top: 0 !important; }
+
+/* Make headings a bit tighter on homepage */
+.md-typeset h1:first-of-type { margin-bottom: .4rem; }
