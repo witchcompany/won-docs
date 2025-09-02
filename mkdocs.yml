@@ -1,0 +1,19 @@
+site_name: WON Docs
+site_description: WON — KRW-Linked Unit & Twin Wallet Hedging
+theme:
+  name: material
+nav:
+  - Home: docs/index.md
+  - Whitepaper: docs/whitepaper.md
+  - Getting Started: docs/getting-started.md
+  - Concepts:
+      - Twin Wallet: docs/concepts/twin-wallet.md
+  - Architecture:
+      - Overview: docs/architecture/overview.md
+  - Flows:
+      - Minting: docs/flows/minting.md
+  - Operations:
+      - Deployment: docs/operations/deployment.md
+  - Security: docs/security.md
+  - FAQ: docs/faq.md
+  - Glossary: docs/glossary.md
